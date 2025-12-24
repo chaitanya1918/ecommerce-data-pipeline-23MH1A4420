@@ -1,0 +1,22 @@
+{ 
+  "transformation_status": "success",
+  "staging_counts": {
+    "customers": 1000,
+    "products": 500,
+    "transactions": 10000,
+    "transaction_items": 20050
+  },
+  "production_counts": {
+    "customers": 1000,
+    "products": 500,
+    "transactions": 10000,
+    "transaction_items": 20050
+  },
+  "warehouse_counts": {
+    "fact_sales": 585429,
+    "dim_customers": 1000,
+    "dim_products": 500,
+    "dim_date": 10000
+  },
+  "timestamp": "2025-01-01 12:00:00"
+}

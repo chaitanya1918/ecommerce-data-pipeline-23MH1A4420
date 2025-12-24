@@ -1,0 +1,40 @@
+{
+    "nulls": {
+        "customers.customer_id": 0,
+        "customers.first_name": 0,
+        "customers.last_name": 0,
+        "customers.email": 0,
+        "customers.phone": 0,
+        "customers.city": 0,
+        "products.product_id": 0,
+        "products.product_name": 0,
+        "products.category": 0,
+        "products.price": 0,
+        "transactions.transaction_id": 0,
+        "transactions.customer_id": 0,
+        "transactions.transaction_date": 0,
+        "transactions.payment_method": 0,
+        "transactions.total_amount": 0,
+        "transaction_items.item_id": 0,
+        "transaction_items.transaction_id": 0,
+        "transaction_items.product_id": 0,
+        "transaction_items.quantity": 0,
+        "transaction_items.line_total": 0
+    },
+    "duplicates": {
+        "customers": 0,
+        "products": 0,
+        "transactions": 0,
+        "transaction_items": 0
+    },
+    "referential_issues": {
+        "transactions->customers": 0,
+        "transaction_items->products": 0,
+        "transaction_items->transactions": 0
+    },
+    "range_issues": {
+        "negative_values": 0,
+        "invalid_dates": 0
+    },
+    "quality_score": 100.0
+}

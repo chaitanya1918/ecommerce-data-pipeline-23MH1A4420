@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Data files
+data/raw/*.csv
+data/staging/*.csv
+data/processed/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Power BI
+*.pbix
